@@ -1,0 +1,13 @@
+ravi / sham
+
+
+ravi navbar       // navbar branch   => pull request(it will merge ravi code to main)
+
+after two days
+sham body		// body branch     =>he will take pull/fetch main branch first and then raise a pull request to merge code into main branch
+
+
+
+pull request means  merge your branch to main branch
+
+and pull means fetch code from particular branch

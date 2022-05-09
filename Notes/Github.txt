@@ -1,0 +1,36 @@
+Coach ID: jayasruthi.l@gmail.com
+https://github.com/shruthi2609/BI-Git-Demo.git
+
+Github is the cloud storage. It is a website.
+GIT is a software which works on commands. Runs on local machine. Helps to trace the changes done on file and push to remote repository ie Github through commands.
+GIT (Do changes, Push, Pull)
+Repository is storage.
+
+git init - Initialize Git repo.'
+git status - Tells us status of files in different stages
+
+Steps to push code to GitHub from local repo.
+1.Staging
+2.Commit
+3.Push
+
+git add filename - To move single file to staging area.
+git add -A - To move all files to staging area.[git add *]
+
+git commit -m "(Git message Eg.Version numbers)" 
+
+Create a repo in GitHub
+(While naming use - for space. Should have same name as the folder name.Case Sensitive.)
+
+To configure (Only once we do this per repo)
+git remote add origin "URL"
+
+git push -u origin master(master is branch name)
+
+Commands for authenticate at first time.
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+git remote set-url origin "URL"
+

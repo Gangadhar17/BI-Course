@@ -1,0 +1,45 @@
+for clonning
+
+git clone <repository url> // to clone repository
+git clone <repository url> -b <branch name> // to clone particular branch in git repository
+
+
+for adding or staging files
+
+git add <file.name>  //to stage particular file 
+git add * // to stage all changed files 
+
+
+git commit -m <commit message> // to commit changes 
+
+git push -u orgin <branch name> // to push changes to particular branch in repository
+
+note: default branch in git repository is main but we for other first we need to create branch and then push the changes
+
+to create new branch
+
+git branch <new branch name>  // to create new branch in git 
+git branch -b <new branch name> // to create new branch and checkout into it
+
+git branch -d <branch name> // to delete a branch
+
+to checkout or to open particular branch in local
+
+git checkout <branch name> //to create new branch 
+
+to check for the changes made 
+
+git diff --staged // to check what changes has been staged after running git add command
+
+git diff <branch1> <branch2> // to check what are the difference btw 2 branches
+
+to push the command to the github or bitbucket 
+git push -u origin <branch name> // to push commited changes to the branch
+
+git pull // to take pull form particular
+note:- to take pull always checkout to branch then make git pull request
+
+to unstage to reverser add command 
+
+git reset //to unstage changed but to keep them for editing 
+git reset --hard // to unstage stages chnages and deleted changes permanently

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>JavaScript</title>
+    
+</head>
+<body>
+    <h1></h1>
+    <button id="he"></button>
+
+    <p id="p1">New text for JS ...</p>
+    <button id="b2">Click here!</button>
+
+    <p id="p2">Style this text</p>
+    <button id="b3">More text!</button>
+
+    <script type="text/javascript">
+        document.getElementById("he").onclick=function() { 
+            document.getElementsByTagName("h1").innerHTML="Hello!" ;
+        }
+        
+        
+        document.getElementById("b2").onclick=function() { 
+            document.getElementById("p1").innerHTML=document.getElementById("p1").innerHTML+"Awesome"      }
+
+
+        document.getElementById("b3").onclick=function() { 
+            document.getElementById("p2").style.fontSize="100px"    }
+
+        
+            
+
+    </script>
+</body>
+</html>
